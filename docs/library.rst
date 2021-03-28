@@ -1,11 +1,10 @@
-********
 Library
-********
+=======
 
 The origami-lib library lets you integrate your machine learning code with the Origami web app. All it takes is a couple of function calls. Let's get started!
 
 Configuration
-#############
+-------------
 
 origami-lib supports python2 (on OSX and Linux) only as of now.
 Download origami.py from `Github <github.com/Cloud-CV/Origami>`_ to your projects root directory (where the launcher python script is).
@@ -19,7 +18,7 @@ origami-lib has a file requirements.txt that contains dependency python packages
 	pip install -r requirements.txt
 
 Register a new app
-##################
+--------------------
 
 origami-lib registration requires a TOKEN from the Origami webapp.
 This TOKEN can be copied from the registration page of the application.
@@ -48,17 +47,14 @@ Lastly, it should have a statement that starts the app,::
 	app.run()
 
 Input functions
-###############
+-----------------
 
 * *getTextArray()*:
-	Arguments:
-		None
+	**Arguments**: None
 
-	Returns:
-		Array of text elements
+	**Returns**: Array of text elements
 
-	This function works with:
-		Text Input Component
+	**This function works with**: Text Input Component
 
 		Text Image Input Component
 		An example can bee seen at this `gist <https://gist.github.com/NSDCars5/c63124fa951423a3b4638664d7e3646b>`_.
