@@ -8,7 +8,6 @@ Origami
 ****************
 
 ==================
-
 Introduction
 ===================
 
@@ -20,5 +19,3 @@ Origami helps you build a web based demo out of Machine Learning Code. Origami p
    web-app
    library
 
-
-===================================
